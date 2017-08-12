@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'custom_user_api.apps.CustomUserApiConfig',
+    'sign_up.apps.SignUpConfig',
     'rest_framework.authtoken',
     'django.contrib.admin',
     'django.contrib.auth',

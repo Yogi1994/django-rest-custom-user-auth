@@ -22,5 +22,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('api.urls', namespace='api', app_name='api')),
+    url(r'^', include('sign_up.urls', namespace='sign_up', app_name='sign_up')),
 
 ]
